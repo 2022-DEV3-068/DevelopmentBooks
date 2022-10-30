@@ -1,8 +1,8 @@
 package com.hma.katabook.domain;
 
 public class BookPacket {
-    private String bookReference;
-    private int quantity;
+    public String bookReference;
+    public int quantity;
 
     public BookPacket(String bookReference, int quantity)
     {
