@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-content {
+  margin: 0 20px;
+}
+
+.book-page-item {
+  margin: 0;
+  padding: 0;
+}
+
+.book-page-item li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+.book-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.book-image {
+  width: 64px;
+  height: 64px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  float: left;
+}
+.book-title {
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+.book-price {
+  text-align: right;
+  margin-bottom: 1em;
+  font-size: 18px;
+  color: #555;
+}
+.remove-from-basket,
+.add-to-basket {
+  margin-bottom: 5px;
+  font-size: 14px;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.remove-from-basket {
+  margin-right: 5px;
+}
+.add-to-basket {
+  margin-left: 5px;
+}
+.remove-from-basket:hover,
+.add-to-basket:hover {
+  background-color: #ffddb2;
+}
+.basket-items-list {
+  margin: 0;
+  padding: 0;
+}
+.basket-items-list li {
+  list-style: none;
+}
+.basket-item-count {
+  border: 2px solid #ffaa3f;
+  color: #fff;
+  padding: 10px 10px 4px 10px;
+  border: 1px solid #ccc;
+}
+
